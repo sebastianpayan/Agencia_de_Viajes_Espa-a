@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="/img/airplaneIcon.png" type="image/x-icon" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <!-- Icons Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/IMG/Favicon/favicon.ico" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="css/style.css" />
+  <title> Spanish Travel Agency </title>
+</head>
+
+<body style="position: relative" data-bs-spy="scroll" data-bs-target="#navBar" data-bs-offset="10" tabindex="0">
+  <!-- Navbar -->
+  <nav id="navBar" class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="/" class="navbar-brand fw-bold"><i class="bi bi-building"></i> Traveling us!
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navegation" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#destination" class="nav-link">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#plans" class="nav-link">Plans and methods pay</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carosuel -->
+  <section id="home" class="mt-5">
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/IMG/Monuments-1000x200.jpg" class="d-block w-100" alt="Travel" />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/Monument-and-Flag-1000x200.jpg" class="d-block w-100" alt="Travel" />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/IMG/Beach-in-Spain-1000x200.jpg" class="d-block w-100" alt="Travel" />
+        </div>
+      </div>
+      <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- services -->
+  <section id="services" class="bg-light py-5 text-center">
+    <div class="container">
+      <div class="service">
+        <i class="bi bi-card-checklist h1"></i>
+        <i class="bi bi-card-checklist h1"></i>
+        <i class="bi bi-card-checklist h1"></i>
+      </div>
+      <h2 class="display-4 mt-3">Services!</h2>
+      <p class="Lead mb-5">
+        "We are the bridge to your Spanish dreams, the storytellers of your adventures, and the architects of
+        unforgettable
+        memories. At [Your Spanish Travel Agency Name], we turn wanderlust into reality, one destination at a time. Let
+        us be
+        your guide to the enchanting tapestry of Spain."
+      </p>
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4 col-xl-4 mb-md-0 mb-5">
+          <img src="./assets/IMG/Sagrada-Familia-500x500.jpg" class="imgs img-fluid rounded" alt="Travel" />
+        </div>
+        <div class="col-12 col-md-12 col-lg-8 col-xl-8 my-md-5">
+          <div class="accordion accordion-flush" id="accordionServices">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="transport">
+                <button class="btns-trans accordion-button collapsed h2" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <i class="bi bi-speedometer me-1"></i> TRANSPORT
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="transport"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Experience the luxury and charm of Spain with our exclusive transportation services. From the
+                  sophistication of private
+                  carriages to the convenience of ride-sharing, we've got your journey covered."
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="tour">
+                <button class="btns-tour accordion-button collapsed h1" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <i class="bi bi-star me-1"></i> TOUR
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="tour"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Explore the heart and soul of Spain through our captivating tours. Traverse major cities, iconic
+                  landmarks, and hidden
+                  gems, unlocking the stories that make Spain unforgettable.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="excursions">
+                <button class="btns-excur accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <i class="bi bi-signpost-split me-1"></i> EXCURSIONS
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="excursions"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Embark on extraordinary excursions in Spain, where every path leads to a new adventure. Immerse
+                  yourself in the culture,
+                  history, and natural wonders of this beautiful country.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="security">
+                <button class="btns-secu accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  <i class="bi bi-shield-check me-1"></i> SECURITY
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="security"
+                data-bs-parent="#accordionServices">
+                <div class="accordion-body">
+                  Your safety is our priority. Discover Spain with peace of mind, knowing that we've handpicked secure
+                  accommodations and communities to ensure your well-being."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <main class="bg-dark text-white py-5 text-center" id="destination">
+    <div class="container">
+      <div class="start-desti">
+        <i class="bi bi-star h3"></i>
+        <i class="bi bi-star h1"></i>
+        <i class="bi bi-star h3"></i>
+      </div>
+      <h2 class="display-4 my-5">Destinations</h2>
+
+      <!-- First Destination -->
+      <div class="row">
+        <div class="col-12 col-lg-8">
+          <img src="./assets/IMG/National-Park-500x500.jpg" alt="Natural National Parks"
+            class="cities img-fluid rounded" />
+        </div>
+        <div class="col-12 col-lg-4">
+          <h5> Natural National Parks </h5>
+          <hr />
+          <p>
+            "Spain's Natural National Parks beckon you to explore their pristine beauty. Witness untouched landscapes,
+            diverse
+            ecosystems, and unforgettable moments in the heart of nature."
+          </p>
+        </div>
+      </div>
+      <!-- End First Destination -->
+
+      <!-- Second Destination -->
+      <div class="row mt-5">
+        <div class="col-12 col-lg-8">
+          <img src="./assets/IMG/City-at-Night-500x500.jpg" alt="Vibrant Night Life" class="cities img-fluid rounded" />
+        </div>
+        <div class="col-12 col-lg-4">
+          <h5>Vibrant Night Life</h5>
+          <hr />
+          <p>
+            Experience Spain's vibrant nightlife like never before. From the passionate rhythms of Flamenco to the
+            eclectic beats of
+            electronic music, our nightlife tours will have you dancing till dawn
+          </p>
+        </div>
+      </div>
+      <!-- End Second Destination -->
+
+      <!-- Repeat the pattern for other destinations -->
+
+      <hr>
+
+      <!-- Additional content below the destinations -->
+      <div class="row mt-5">
+        <div class="col-12 col-lg-8">
+          <img src="./assets/IMG/Gastronomy-500x500.jpg" alt="Spanish Gastronomy" class="cities img-fluid rounded" />
+        </div>
+        <div class="col-12 col-lg-4">
+          <h5> Spanish Gastronomy </h5>
+          <hr />
+          <p>
+            Indulge in the rich tapestry of Spanish gastronomy. From tapas to paella, savor the flavors of Spain's
+            diverse and
+            delectable cuisine.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="my-5 display-6">
+      "We keep looking for new parts of the world where you can be happy and have new experiences 🛫"
+    </h1>
+  </main>
+
+
+  <!-- Plans and methods pay -->
+  <section id="plans" class="bg-light py-5 text-center">
+    <div class="container">
+      <div>
+        <i class="cash bi bi-cash-stack h1 pe-5"></i>
+        <i class="cards bi bi-credit-card-2-back-fill h1"></i>
+      </div>
+      <h2 class="display-4 my-5">Plans and methods pay</h2>
+
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+          <div class="card p-5 bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title h2 mb-5">Free soul!</h5>
+              <h6 class="card-subtitle mb-5 text-muted h5">
+                Connect with your inner wolf, you can know the world only
+                feeling like a free and carefree soul!😎
+              </h6>
+              <p class="card-text display-5">$250</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+          <div class="card p-5 bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title h2 mb-5">Happy Couple!</h5>
+              <h6 class="card-subtitle mb-5 text-muted h5">
+                Travel with the love of your life and the world with the
+                person who you more love!💖
+              </h6>
+              <p class="card-text display-5">$450</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+          <div class="card p-5 bg-dark text-white">
+            <div class="card-body">
+              <h5 class="card-title h2 mb-5">Family time!</h5>
+              <h6 class="card-subtitle mb-5 text-muted h5">
+                Travel with your family is the best experience that you can
+                have to create some memories 👪
+              </h6>
+              <p class="card-text display-5">$800</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="display-4 my-5">You can pay with:</h2>
+      <img src="./assets/IMG/Payments Methods/MasterCard.png" class="img-pay img-fluid m-3 me-lg-5" alt="mastercard" />
+      <img src="./assets/IMG/Payments Methods/Diner´s-Club.png" class="img-pay img-fluid m-3 me-lg-5"
+        alt="dinersClub" />
+      <img src="./assets/IMG/Payments Methods/PSE.png" class="img-pay img-fluid m-3 me-lg-5" alt="pse" />
+    </div>
+  </section>
+
+  <!-- Contact us -->
+  <section id="contact" class="bg-dark text-light py-5 text-center">
+    <div class="container">
+      <div class="contact">
+        <i class="bi bi-chat-square-dots h3"></i>
+        <i class="bi bi-chat-square-dots h1"></i>
+        <i class="bi bi-chat-square-dots h3"></i>
+      </div>
+      <h1 class="display-4">Contact us!</h1>
+      <form id="formContact">
+        <div class="row px-5 align-items-center text-dark">
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="form-floating">
+              <input type="text" class="form-control" id="name" required placeholder="Enter your name"
+                name="namePerson" />
+              <label for="name">Name:</label>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="form-floating">
+              <input type="email" class="form-control" id="floatingInput" required placeholder="name@example.com"
+                name="emailPerson" />
+              <label for="floatingInput">Email address:</label>
+            </div>
+          </div>
+          <div class="col-12 mb-3">
+            <div class="form-floating">
+              <textarea class="form-control" required placeholder="Leave a comment here" style="height: 100px"
+                id="floatingTextarea" name="textComments"></textarea>
+              <label for="floatingTextarea">Comments, question and more!</label>
+            </div>
+          </div>
+          <button id="btnSend" type="submit" class="btn btn-primary w-100">
+            Send!
+          </button>
+          <button id="btnSending" class="btn btn-primary d-none" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Sending...
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Toats -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+      <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header bg-dark">
+          <strong class="me-auto text-light">Great</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <div class="toast-body text-dark">
+          The message was sent successfully. 🤖
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Foooter -->
+  <footer class="bg-light py-1 text-dark text-center">
+    <div class="container">
+      <div class="row align-items-center py-5">
+        <div class="col-12 col-md-4 mb-5 mb-md-0">
+          <h3>Who are us?</h3>
+          <p>
+            We are your trusted travel companions, dedicated to crafting exceptional journeys in Spain. Discover the
+            magic of Spain
+            with our passionate team by your side.
+          </p>
+        </div>
+        <div class="col-12 col-md-4 mb-5 mb-md-0">
+          <h3>Social Media</h3>
+          <p>
+            <a href="https://facebook.com" target="_BLANK"><i class="face bi bi-facebook h1 py-5"></i></a>
+          </p>
+          <p>
+            <a href="https://instagram.com" target="_BLANK"><i class="insta bi bi-instagram h1"></i></a>
+          </p>
+          <p>
+            <a href="https://twitter.com" target="_BLANK"><i class="twitter bi bi-twitter h1"></i></a>
+          </p>
+        </div>
+        <div class="col-12 col-md-4 mb-2mb-md-0">
+          <h3>Where find us?</h3>
+          <p>
+            Connect with us on social media to stay updated on Spain's latest travel trends and tips. Follow our
+            adventures on
+            Facebook, Instagram, and Twitter your gateway to Spain's wonders.Follow, like, and journey with us."
+          </p>
+        </div>
+      </div>
+      <p class="h4">All rights reserved&#174;</p>
+    </div>
+  </footer>
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
